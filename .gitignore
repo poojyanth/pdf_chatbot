@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+llama-2-7b-chat.Q8_0.gguf
+
 # Distribution / packaging
 .Python
 build/
