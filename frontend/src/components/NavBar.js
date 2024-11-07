@@ -39,7 +39,7 @@ export default function NavBar({ onUpload }) {
           <div className="upload-container">
             <label htmlFor="pdfUpload" className="upload-btn">
               <img height={"15rem"} src={circlePlus} alt="" />
-              Upload PDF
+              <span className="UploadPDFName">Upload PDF</span>
             </label>
             <input
               id="pdfUpload"

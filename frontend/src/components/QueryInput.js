@@ -1,5 +1,6 @@
 // components/QueryInput.js
 import React, { useState } from 'react';
+import sendButton from '../assets/send.png';
 
 function QueryInput({ onQuery }) {
   const [query, setQuery] = useState('');
@@ -21,7 +22,7 @@ function QueryInput({ onQuery }) {
         onKeyPress={(e) => e.key === 'Enter' && handleQuerySubmit()}
         className="query-input"
       />
-      <button onClick={handleQuerySubmit} className="send-btn">Send</button>
+      <button onClick={handleQuerySubmit} className="send-btn"><img src={sendButton} alt="" /> </button>
     </div>
   );
 }
